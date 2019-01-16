@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+//where javascript goes
+
+</script>
+
+<style>
+body{
+	background-image:url("https://i.redd.it/xti65fk0824z.png"); 
+	height: 100%; 
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+    padding-bottom:50px;
+    text-align:center;
+}
+h1{
+	font-size:5em;
+    color:#4938FF;
+    text-shadow: 2px 2px #FFFF81;
+}
+form{
+	color:#FFFF83;
+	border-color:blue;
+    border-radius:12px;
+    border-style:solid;
+    padding:10px;
+    width:75%;
+    display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+    padding-bottom:25px;
+}   
+button{
+  border: 2px solid #DC03F0;
+  border-radius:50px;
+  color: #DC03F0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {background-color: transparent}
+button:active {
+  background-color:#2E007E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+table{
+	width:100%;
+}
+
+
+</style>
+<body>
+	<h1>Age Counter</h1>
+    <br><br>
+	<form name="live">Please enter your age: 
+    <input type="text" name="age" value="" size=20> 
+    <br>
+	Example: (november 1,1966) 
+	<br><br><br>
+
+	<button name="start" value="Start" onclick="lifetimer(this.form)">Start</button>
+
+	<button type="reset" name="resetb" value="Reset Age">Reset</button>
+
+<br><br>
+
+<table border=0>
+	<tr><td>You are days old:</td>
+
+	<td>
+	<input type="text" name="time1" value="" size=8>
+	</td>
+	</tr>
+
+	<tr><td>Plus hours old:</td>
+	<td>
+	<input type="text" name="time2" value="" size=8>
+	</td>
+	</tr>
+
+	<tr><td>Plus minutes old:</td>
+	<td><input type="text" name="time3" value="" size=8></td>
+	</tr>
+</table>
+
+	
+
+</form>
+</body>
+
+</html>
